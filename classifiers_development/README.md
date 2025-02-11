@@ -58,3 +58,8 @@ In this script, I trained a Mahalanobis distance-based classifier using 80% of t
 **12: `combined_MD_RF_statistics_and_Figures.ipynb`**
 
 In this script, I generated figures and statistics to compare the outputs of these two classification methods, as produced in Random_Forest_testing.ipynb and Mahalanobis_testing.ipynb.
+
+
+**13: `predictions_using_sc_scores.ipynb`**
+
+I computed gene scores for the key genes using Scanpy's sc.tl.score_genes function and generated additional predictions. These predictions were then compared to the other predictions and integrated with the clustering analysis.
